@@ -1,6 +1,9 @@
-export const Main = () => {
+import { Header } from "./Header"
+
+export const TicketGenerator = () => {
   return (
     <div>
+      <Header />
       {/* <!-- Form starts --> */}
 
       Your Journey to Coding Conf 2025 Starts Here!

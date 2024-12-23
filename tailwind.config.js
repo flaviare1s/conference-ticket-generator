@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         'inconsolata': ["Inconsolata", "serif"],
+        'fira': ["Fira Code", "serif"],
       },
       colors: {
         neutral_0: "hsl(0, 0%, 100%)",
