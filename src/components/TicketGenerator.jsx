@@ -13,9 +13,10 @@ export const TicketGenerator = () => {
       <Header />
       {/* <!-- Form starts --> */}
 
-      Your Journey to Coding Conf 2025 Starts Here!
-
-      Secure your spot at next year's biggest coding conference.
+      <section className="p-5">
+        <p className="text-neutral_0 text-center text-[30px] font-extrabold">Your Journey to Coding Conf 2025 Starts Here!</p>
+        <p className="text-neutral_300 text-center text-xl font-medium">Secure your spot at next year's biggest coding conference.</p>
+      </section>
 
       Upload Avatar
       Drag and drop or click to upload
