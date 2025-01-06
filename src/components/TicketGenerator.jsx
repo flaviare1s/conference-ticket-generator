@@ -1,8 +1,15 @@
 import { Header } from "./Header"
+import backgroundMobile from "../assets/images/background-mobile.png"
+import backgroundTablet from "../assets/images/background-tablet.png"
+import backgroundDesktop from "../assets/images/background-desktop.png"
+
 
 export const TicketGenerator = () => {
   return (
     <div>
+      <img className="absolute -z-10 md:hidden" src={backgroundMobile} />
+      <img className="absolute -z-10 hidden md:block lg:hidden" src={backgroundTablet} />
+      <img className="absolute -z-10 hidden lg:block" src={backgroundDesktop} />
       <Header />
       {/* <!-- Form starts --> */}
 
